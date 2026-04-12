@@ -1,0 +1,22 @@
+.task-tabs{
+    
+    display:flex;
+    gap:10px;
+    background: transparent;
+    padding:10px;
+    border-radius:12px;
+    width:fit-content;
+}
+
+.tab-btn{
+    padding:8px 18px;
+    border-radius:14px;
+    border:1px solid #8b6a55;
+    background:#d8c2b2;
+    font-weight:600;
+    cursor:pointer;
+}
+
+.tab-btn:hover{
+    background:#caa48a;
+}
