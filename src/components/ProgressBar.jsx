@@ -1,25 +1,26 @@
 import React from "react";
-import "./ProgressBar.css";
+import "../styles/ProgressBar.css";
 
-const ProgressBar = ({ completed, total }) => {
-  const percentage = Math.round((completed / total) * 100);
-
+function ProgressBar() {
   return (
-    <div className="progress-container">
-      <div className="progress-label">
-        Today’s Progress: {percentage}% Complete
+    <>
+      <div className="progress-main">
+        <div className="progress-wrapper">
+          <div className="progress-header">
+            <h2>Today's Progress</h2>
+            <div className="progress-stat-circle">
+              <span>0% Done</span>
+              <span className="progress-circle"></span>
+            </div>
+          </div>
+          <div className="progress-bar">
+            <span>0% Complete</span>
+            <span className="progress-bar"></span>
+          </div>
+        </div>
       </div>
-      <div className="progress-bar">
-        <div
-          className="progress-fill"
-          style={{ width: `${percentage}%` }}
-        ></div>
-      </div>
-      <div className="progress-info">
-        {completed} of {total} tasks complete
-      </div>
-    </div>
+    </>
   );
-};
+}
 
 export default ProgressBar;
