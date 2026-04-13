@@ -26,6 +26,7 @@ body {
   border-radius: 30px;
   background: #F5EEDC;
   box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.25);
+  padding: 15px 20px;
 }
 
 input {
