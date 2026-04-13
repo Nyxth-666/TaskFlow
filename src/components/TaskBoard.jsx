@@ -5,7 +5,7 @@ import Filters from "./Filters";
 function TaskBoard() {
   return (
     <>
-      <div className="task-board-main">
+      <div className="task-board-main box">
         <div className="task-board-wrapper">
           <div className="task-board-header">
             <h2>Task Board</h2>
