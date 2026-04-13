@@ -1,7 +1,9 @@
 .main-head {
-  background: #D1B59D; 
+  background: #D1B59D;
   border-bottom: 2px solid #d4c4a8;
   padding: 0.8rem 1.5rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .head-wrapper {
@@ -30,7 +32,7 @@
 }
 
 .title h1 {
-  font-family: "PoetsenOne", sans-serif;
+  font-family: "Pacifico", cursive;
   font-size: 64px;
   font-weight: 400;
   font-style: normal;
@@ -43,7 +45,7 @@
 
 .title h1 span {
   color: #ba835d;
-  font-family: "PoetsenOne", sans-serif;
+  font-family: "Pacifico", cursive;
   font-size: 64px;
   font-weight: 400;
   font-style: normal;
