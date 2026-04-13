@@ -13,7 +13,7 @@ function ProgressBar() {
               <span className="progress-circle"></span>
             </div>
           </div>
-          <div className="progress-bar">
+          <div className="progress-stat-bar">
             <span>0% Complete</span>
             <span className="progress-bar"></span>
           </div>
