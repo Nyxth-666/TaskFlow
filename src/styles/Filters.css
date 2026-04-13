@@ -1,22 +1,24 @@
-.task-tabs{
-    
-    display:flex;
-    gap:10px;
-    background: transparent;
-    padding:10px;
-    border-radius:12px;
-    width:fit-content;
+.filter-group {
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
-.tab-btn{
-    padding:8px 18px;
-    border-radius:14px;
-    border:1px solid #8b6a55;
-    background:#d8c2b2;
-    font-weight:600;
-    cursor:pointer;
+.filter-group button {
+    display: flex;
+    width: 201.241px;
+    height: 43.377px;
+    padding: 9px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15px;
+    border: 1px solid #480303;
+    background: #E5D1B9;
+    font-weight: 600;
+    transition: background 0.1s ease-in-out;
 }
 
-.tab-btn:hover{
-    background:#caa48a;
+.filter-group button:focus {
+    background: #BA835D;
 }
