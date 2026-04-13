@@ -1,0 +1,4 @@
+.progress-boxes {
+    display: flex;
+    gap: 15px;
+}
