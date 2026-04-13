@@ -4,7 +4,7 @@ import "../styles/ProgressBar.css";
 function ProgressBar() {
   return (
     <>
-      <div className="progress-main">
+      <div className="progress-main box">
         <div className="progress-wrapper">
           <div className="progress-header">
             <h2>Today's Progress</h2>
