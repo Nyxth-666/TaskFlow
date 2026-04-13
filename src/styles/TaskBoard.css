@@ -28,3 +28,12 @@
     flex-direction: column;
     gap: 35px;
 }
+
+.no-tasks {
+    color: #161515;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

@@ -51,3 +51,7 @@ h2 {
   font-weight: 700;
   line-height: normal;
 }
+
+li {
+  list-style: none;
+}
