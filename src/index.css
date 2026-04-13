@@ -20,6 +20,9 @@ body {
   min-height: 100vh;
   overflow: auto;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .box {

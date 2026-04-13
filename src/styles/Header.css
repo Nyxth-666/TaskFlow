@@ -2,13 +2,14 @@
   background: #D1B59D;
   border-bottom: 2px solid #d4c4a8;
   padding: 0.8rem 1.5rem;
-  align-items: center;
-  justify-content: center;
+  align-self: center;
+  justify-self: center;
 }
 
 .head-wrapper {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 1rem;
 }
 
