@@ -1,5 +1,5 @@
 import React from "react";
-import "./Filters.css";
+import "../styles/Filters.css";
 
 function Filters() {
   <div className="filter-group">
