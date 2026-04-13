@@ -1,16 +1,99 @@
-# React + Vite
+# 📌 TaskFlow – Task Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Group #1
 
-Currently, two official plugins are available:
+**Leader:** Joshua Barotea  
+**Members:**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- MAMAC, JOHN MICHAEL L.
+- PRONTON, JONEL P.
+- SAN AGUSTIN, JHONAS C.
+- SECO, CIELO G.
+- BAUTISTA, ALMA M.
+- ORTE, JAMES MIRO R.
+- METRAN, RAFAEL L.
+- AGUILERA, JOHN KEVIN F.
+- DALUMPIENES, GEOFFREY BEENE P.
+- ESGUERRA, NATHANIEL L.
+- BERMUDEZ, ROMMEL GIO C.
+- ENDOZO, CHRISTIAN JAY C.
 
-## React Compiler
+**GitHub:** [TaskFlow Repo](https://github.com/Nyxth-666/TaskFlow.git)  
+**License:** [MIT License](LICENSE)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+TaskFlow is a simple and intuitive task management web application built with React that helps users organize, track, and manage daily tasks efficiently.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+
+- ✅ Add tasks with title and description (auto timestamp)
+- 📋 Task board with search and filters (All/Completed/Overdue >24h)
+- 📊 Progress bar (circle + bar % complete)
+- ⏰ Next pending task display
+- ✔️ Toggle complete checkbox
+- ✏️ Edit (prompt)
+- 🗑️ Delete (confirm)
+- 💾 localStorage persistence
+- 📱 Responsive (no overflow, mobile-friendly)
+
+---
+
+## 🖥️ UI Components
+
+| Component   | Description              |
+| ----------- | ------------------------ |
+| TaskForm    | Add new tasks            |
+| ProgressBar | Completion %             |
+| NextTask    | First pending task       |
+| TaskBoard   | List with search/filters |
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** + Vite
+- **CSS** (responsive)
+- **Context API** + custom hook for state
+- **localStorage** persistence
+
+---
+
+## 🚀 Quick Start
+
+1. Clone & install:
+
+```bash
+git clone https://github.com/Nyxth-666/TaskFlow.git
+cd TaskFlow
+npm install
+```
+
+2. Run:
+
+```bash
+npm run dev
+```
+
+3. Open http://localhost:5173
+
+**Test:** Add tasks, toggle/edit/delete, filter overdue, resize - responsive, persistent.
+
+---
+
+## 📁 Structure
+
+```
+src/
+├── components/     # UI components
+├── context/        # TaskContext
+├── hook/           # useTask hook
+├── utils/          # TimeUtils
+└── styles/         # CSS
+```
+
+---
+
+License: This project is for educational purposes only.
