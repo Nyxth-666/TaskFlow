@@ -2,6 +2,7 @@ import React from "react";
 import SearchBar from "./SearchBar";
 import Filters from "./Filters";
 import "../styles/TaskBoard.css";
+import TaskCard from "./TaskCard";
 
 function TaskBoard() {
   return (
