@@ -1,7 +1,7 @@
 import React from "react";
-import "../styles/TaskBoard.css";
+import "../styles/TaskForm.css";
 
-function TaskBoard() {
+function TaskForm() {
   return (
     <>
       <div className="task-main">
@@ -23,4 +23,4 @@ function TaskBoard() {
   );
 }
 
-export default TaskBoard;
+export default TaskForm;
