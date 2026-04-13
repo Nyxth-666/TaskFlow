@@ -1,11 +1,14 @@
 import React from "react";
+import "../styles/Header.css";
 
 const Header = () => {
   return (
     <>
       <header className="main-head">
         <div className="head-wrapper">
-          <img src="/src/assets/Task-Logo.png" alt="Logo" />
+          <div className="logo">
+            <img src="/src/assets/Task-Logo.png" alt="Logo" />
+          </div>
           <div className="title">
             <h1>
               Task<span>Flow</span>
