@@ -1,0 +1,51 @@
+.main-head {
+  background: #D1B59D; 
+  border-bottom: 2px solid #d4c4a8;
+  padding: 0.8rem 1.5rem;
+}
+
+.head-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo {
+  width: 150px;
+  height: 103px;
+  aspect-ratio: 150 / 103;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: #D1B59D;
+  background-position: -83.721px -75.941px;
+  background-size: 210.465% 306.78%;
+  background-repeat: no-repeat;
+}
+
+.title h1 {
+  font-family: "PoetsenOne", sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+  color: #fff;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 0;
+}
+
+
+.title h1 span {
+  color: #ba835d;
+  font-family: "PoetsenOne", sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+}
