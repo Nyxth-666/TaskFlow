@@ -4,7 +4,7 @@ import TaskForm from "./components/TaskForm";
 import ProgressBar from "./components/ProgressBar";
 import NextTask from "./components/NextTask";
 import TaskBoard from "./components/TaskBoard";
-import Filters from "./components/Filters";
+import TaskCard from "./components/TaskCard";
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
         </div>
         <TaskBoard />
       </main>
+      <TaskCard />
     </>
   );
 }
