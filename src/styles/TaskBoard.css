@@ -1,7 +1,8 @@
 .task-board-main {
     display: flex;
     width: 100%;
-    height: 150px;
+    min-height: 150px;
+    height: auto;
 }
 
 .task-board-wrapper {
@@ -10,6 +11,7 @@
     align-items: flex-start;
     width: 100%;
     gap: 28px;
+    height: 100%;
 }
 
 .task-board-header {
@@ -21,12 +23,30 @@
 .right {
     display: flex;
     gap: 15px;
+    flex-wrap: wrap;
 }
 
 .task-list {
     display: flex;
     flex-direction: column;
-    gap: 35px;
+    gap: 10px;
+    max-height: 60vh;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    padding-right: 10px;
+}
+
+.task-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.task-list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.task-list::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 3px;
 }
 
 .no-tasks {
@@ -36,4 +56,31 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+@media (max-width: 768px) {
+    .task-board-main {
+        min-height: auto;
+        padding: 1rem;
+    }
+
+    .task-board-wrapper {
+        gap: 1rem;
+    }
+
+    .right {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .task-board-header {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .task-list {
+        gap: 1rem;
+        max-height: 50vh;
+    }
 }
