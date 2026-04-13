@@ -4,7 +4,7 @@ import "../styles/TaskForm.css";
 function TaskForm() {
   return (
     <>
-      <div className="task-main">
+      <div className="task-main box">
         <form className="task-wrapper">
           <div className="task-inputs">
             <div className="task-name">
