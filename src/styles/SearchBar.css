@@ -4,9 +4,9 @@
   background-color: #e6d5bf;
   border: 1.5px solid #7a4a2b;
   border-radius: 12px;
-  padding: 6px 12px;
-  width: 180px;
-  height: 23px;
+  width: 201.241px;
+  height: 43.377px;
+  padding: 9px 20px;
 }
 
 .search-icon {
@@ -19,7 +19,7 @@
   border: none;
   outline: none;
   background: transparent;
-  font-size: 12px;
+  font-size: 13px;
   width: 100%;
   color: #5a3a25;
   font-weight: 500;
@@ -27,6 +27,5 @@
 
 .search-input::placeholder {
   color: #5a3a25;
-  opacity: 0.7;
   letter-spacing: 1px;
 }
