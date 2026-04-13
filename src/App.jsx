@@ -1,20 +1,12 @@
-import { useState } from 'react'
-import './App.css'
-import SearchBar from "./components/SearchBar";
-import Filters from "./components/Filters";
-import ProgressBar from "./ProgressBar";
-
-
+import "./App.css";
+import Header from "./components/Header";
 
 function App() {
-    
   return (
     <div>
-      <SearchBar />
-      <Filters />
+      <Header />
     </div>
-
   );
-};
+}
 
 export default App;
