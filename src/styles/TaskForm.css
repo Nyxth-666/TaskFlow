@@ -70,4 +70,9 @@
     font-size: 19px;
     font-style: normal;
     font-weight: 400;
+    transition: background 0.1s ease-in-out;
+}
+
+.add-task-button:active {
+    background: #805b41;
 }

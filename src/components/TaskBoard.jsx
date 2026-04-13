@@ -1,6 +1,7 @@
 import React from "react";
 import SearchBar from "./SearchBar";
 import Filters from "./Filters";
+import "../styles/TaskBoard.css";
 
 function TaskBoard() {
   return (
