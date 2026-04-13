@@ -17,13 +17,13 @@
     align-items: center;
 }
 
-.task-name {
+.task-card-name {
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
-.task-name input {
+.task-card-name input {
     width: 37px;
     height: 37px;
 }
@@ -38,18 +38,18 @@
     line-height: normal;
 }
 
-.drafts {
+.card-drafts {
     display: flex;
     align-items: center;
 }
 
-.tasks-button {
+.card-tasks-button {
     display: flex;
     align-items: center;
     gap: 21px;
 }
 
-.tasks-button button {
+.card-tasks-button button {
     display: flex;
     width: 77.301px;
     height: 56.989px;

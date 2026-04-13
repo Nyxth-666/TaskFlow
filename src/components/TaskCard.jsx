@@ -6,14 +6,14 @@ function TaskCard() {
     <>
       <div className="task-card-main">
         <div className="task-card-wrapper">
-          <div className="task-name">
+          <div className="task-card-name">
             <input type="checkbox" />
             <span className="task-label"></span>
           </div>
-          <div className="drafts">
+          <div className="card-drafts">
             <span className="draft-label"></span>
           </div>
-          <div className="tasks-button">
+          <div className="card-tasks-button">
             <button className="edit">
               <img src="src\assets\pen.png" />
             </button>
