@@ -6,9 +6,7 @@ function Header() {
     <>
       <header className="main-head">
         <div className="head-wrapper">
-          <div className="logo">
-            <img src="/src/assets/Task-Logo.png" alt="Logo" />
-          </div>
+          <img className="logo" src="./Task-Logo.png"></img>
           <div className="title">
             <h1>
               Task<span>Flow</span>
