@@ -42,10 +42,10 @@ function TaskCard({ task }) {
         </div>
         <div className="card-tasks-button">
           <button className="edit" onClick={handleEdit} title="Edit">
-            <img src="src\assets\pen.png" alt="Edit" />
+            <img src=".\src\assets\pen.png" alt="Edit" />
           </button>
           <button className="delete" onClick={handleDelete} title="Delete">
-            <img src="src\assets\del.png" alt="Del" />
+            <img src=".\src\assets\del.png" alt="Del" />
           </button>
         </div>
       </div>
