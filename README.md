@@ -37,7 +37,6 @@ TaskFlow is a simple and intuitive task management web application built with Re
 - ✏️ Edit (prompt)
 - 🗑️ Delete (confirm)
 - 💾 localStorage persistence
-- 📱 Responsive (no overflow, mobile-friendly)
 
 ---
 
